@@ -1,0 +1,25 @@
+.toggle-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 2em;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all ease-in-out 1s;
+}
+button:hover {
+  transform: rotate(45deg);
+}
+.mode-img {
+  width: 2em;
+  height: 2em;
+}
